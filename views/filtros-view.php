@@ -40,4 +40,17 @@
         -->
         </select>
     </div>
+
+    <!-- Filtro por data -->
+    <div class="filtro-data-container">
+        <label>Filtrar por Data</label>
+        <div class="filtro-data-inputs">
+            <div class="filtro-data-grupo">
+                <span>De</span>
+                <input type="date" id="filtro-data-inicio" name="data_inicio" class="filtro-data" value="<?= $data_inicio ?>">            </div>
+            <div class="filtro-data-grupo">
+                <span>Até</span>
+                <input type="date" id="filtro-data-fim" name="data_fim" class="filtro-data" value="<?= $data_fim ?>">            </div>
+        </div>
+    </div>
 </div>

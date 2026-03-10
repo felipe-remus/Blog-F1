@@ -332,3 +332,18 @@ document.addEventListener('htmx:afterSwap', e => {
         setTimeout(inicializarModal, 50);
     }
 });
+
+// ============================================================
+// ABAS DE CATEGORIA — Publicar
+// ============================================================
+
+document.addEventListener('click', e => {
+    if (!e.target.matches('.aba-btn')) return;
+
+    const btn = e.target;
+    const nav = btn.closest('.abas-nav');
+    if (!nav) return;
+
+    nav.querySelectorAll('.aba-btn').forEach(b => b.classList.remove('aba-ativa'));
+    btn.classList.add('aba-ativa');
+});

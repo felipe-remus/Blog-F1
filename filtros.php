@@ -1,13 +1,6 @@
 <?php
-$categorias = [
-    "f1" => "Formula 1",
-    "f2" => "Formula 2",
-    "f3" => "Formula 3",
-    "f4" => "Formula 4",
-    "f1academy" => "F1 Academy",
-    "fe" => "Formula E",
-    "indy" => "IndyCar",
-];
-
+$data_inicio = $_GET['data_inicio'] ?? '';
+$data_fim = $_GET['data_fim'] ?? '';
+require "model_categoria.php";
 require "views/filtros-view.php";
 ?>

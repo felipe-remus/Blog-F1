@@ -39,15 +39,10 @@
         <button type="button" class="aba-btn" data-aba="f1academy" role="tab"><?= $categorias["f1academy"]?></button>
         <button type="button" class="aba-btn" data-aba="fe" role="tab"><?= $categorias["fe"]?></button>
         <button type="button" class="aba-btn" data-aba="indy" role="tab"><?= $categorias["indy"]?></button>
-            <!--
-            <button type="button" class="aba-btn aba-ativa" data-aba="f1"        role="tab">Fórmula 1</button>
-            <button type="button" class="aba-btn"           data-aba="f2"        role="tab">Fórmula 2</button>
-            <button type="button" class="aba-btn"           data-aba="f3"        role="tab">Fórmula 3</button>
-            <button type="button" class="aba-btn"           data-aba="f4"        role="tab">Fórmula 4</button>
-            <button type="button" class="aba-btn"           data-aba="f1academy" role="tab">F1 Academy</button>
-            <button type="button" class="aba-btn"           data-aba="fe"        role="tab">Fórmula E</button>
-            <button type="button" class="aba-btn"           data-aba="indy"      role="tab">IndyCar</button>
-            -->
+        <button type="button" class="aba-btn" data-aba="wec" role="tab"><?= $categorias["wec"]?></button>
+        <button type="button" class="aba-btn" data-aba="wrc" role="tab"><?= $categorias["wrc"]?></button>
+        <button type="button" class="aba-btn" data-aba="nascar" role="tab"><?= $categorias["nascar"]?></button>
+        <button type="button" class="aba-btn" data-aba="moto" role="tab"><?= $categorias["moto"]?></button>
         </nav>
     </div>  
     <button type="submit" class="botao-enviar">Publicar Notícia</button>

@@ -17,7 +17,7 @@
         <input type="text" id="busca-texto" placeholder="Pesquisar Noticias...">
     </div>
 
-    <!-- Filtro por categoria (sempre visível) -->
+    <!-- Filtro por categoria -->
     <div class="filtro-container">
         <select id="filtro-categoria" name="categoria" class="filtro-select">
         <option value="" disabled selected>Selecione a Categoria</option>
@@ -29,15 +29,10 @@
         <option value="f1academy" ><?= $categorias["f1academy"]?></option>
         <option value="fe" ><?= $categorias["fe"]?></option>
         <option value="indy" ><?= $categorias["indy"]?></option>
-        <!--
-        <option value="f1">Fórmula 1</option>
-        <option value="f2">Fórmula 2</option>
-        <option value="f3">Fórmula 3</option>
-        <option value="f4">Fórmula 4</option>
-        <option value="f1academy">F1 Academy</option>
-        <option value="fe">Fórmula E</option>
-        <option value="indy">IndyCar Series</option>
-        -->
+        <option value="wec" ><?= $categorias["wec"]?></option>
+        <option value="wrc" ><?= $categorias["wrc"]?></option>
+        <option value="nascar" ><?= $categorias["nascar"]?></option>
+        <option value="moto" ><?= $categorias["moto"]?></option>
         </select>
     </div>
 
@@ -47,10 +42,10 @@
         <div class="filtro-data-inputs">
             <div class="filtro-data-grupo">
                 <span>De</span>
-                <input type="date" id="filtro-data-inicio" name="data_inicio" class="filtro-data" value="<?= $data_inicio ?>">            </div>
+                <input type="date" id="filtro-data-inicio" name="data_inicio" class="filtro-data" value="<?= $data_inicio ?>"></div>
             <div class="filtro-data-grupo">
                 <span>Até</span>
-                <input type="date" id="filtro-data-fim" name="data_fim" class="filtro-data" value="<?= $data_fim ?>">            </div>
+                <input type="date" id="filtro-data-fim" name="data_fim" class="filtro-data" value="<?= $data_fim ?>"></div>
         </div>
     </div>
 </div>

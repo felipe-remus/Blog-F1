@@ -347,3 +347,14 @@ document.addEventListener('click', e => {
     nav.querySelectorAll('.aba-btn').forEach(b => b.classList.remove('aba-ativa'));
     btn.classList.add('aba-ativa');
 });
+
+function scrollToSecao(id, btn) {
+    const el = document.getElementById(id);
+    if (el) {
+        const offset = 80;
+        const top = el.getBoundingClientRect().top + window.scrollY - offset;
+        window.scrollTo({ top, behavior: 'smooth' });
+    }
+    document.querySelectorAll('.aba-btn').forEach(b => b.classList.remove('aba-ativa'));
+    btn.classList.add('aba-ativa');
+}

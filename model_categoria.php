@@ -7,5 +7,9 @@ $categorias = [
     "f1academy" => "F1 Academy",
     "fe" => "Formula E",
     "indy" => "IndyCar",
+    "wec" => "WEC",
+    "nascar" => "Nascar",
+    "wrc" => "WRC",
+    "moto" => "MotoGP",
 ];
 ?>

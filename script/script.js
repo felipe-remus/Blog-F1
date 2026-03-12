@@ -334,7 +334,7 @@ document.addEventListener('htmx:afterSwap', e => {
 });
 
 // ============================================================
-// ABAS DE CATEGORIA — Publicar
+// ABAS DE CATEGORIA — Publicar e História
 // ============================================================
 
 document.addEventListener('click', e => {
